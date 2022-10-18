@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.body {
+   font-family: "Lato", sans-serif;
+   color: #1E212C;
+}
+/* .page {} */
+.page__conteiner {
+   max-width: 1230px;
+   margin: 0 auto;
+   min-height: 1600px;
+}
+.course {
+   margin-bottom: 32px;
+}
+.course h2 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+.course p {
+   line-height: 160%;
+   color: #424551;
+   margin-bottom: 48px;
+}
+.course h3 {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   margin-bottom: 24px;
+}
+.course ul li :not(:last-child){
+   margin-bottom: 10px;
+}
+.course li {
+   line-height: 160%;
+   color: #424551;
+}
+ul li:not(:last-child) {
+   margin-bottom: 4px;
+}
+.course li::before {
+   content: "";
+   display: inline-block;
+   background: url("../img/check.svg") 0 0 no-repeat;
+   width: 16px;
+   height: 16px; 
+   padding-left: 30px;  
+}
+.course ul li:hover::before {  
+   transform: rotate(360deg);
+   transition: all 0.9s ease 0s;
+}
+.fisher {
+   margin-bottom: 40px;
+}
+.fisher h4 {
+   font-weight: 700;
+   line-height: 150%;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   margin-bottom: 8px;
+}
+.fisher h2 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 16px;
+}
+.fisher h5 {
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+   margin-bottom: 32px;
+}
+.fisher ul li :not(:last-child){
+   margin-bottom: 10px;
+}
+.fisher ul {  
+   margin-bottom: 32px;
+}
+.fisher ul li {
+   font-weight: 700;
+   line-height: 160%;
+   color: #424551;
+}
+.fisher ul li:first-child::before {
+   content: "";
+   display: inline-block;
+   background: url("../img/Star.svg")0 0 no-repeat;
+   width: 16px;
+   height: 16px;
+   padding-left: 25px;
+}
+.fisher ul li:nth-child(2)::before {
+   content: "";
+   display: inline-block;
+   background: url("../img/Play.svg")0 0 no-repeat;
+   width: 16px;
+   height: 16px;
+   padding-left: 25px;
+}
+.fisher ul li:last-child::before {
+   content: "";
+   display: inline-block;
+   background: url("../img/Profile.svg")0 0 no-repeat;
+   width: 16px;
+   height: 16px;
+   padding-left: 25px;
+}
+.fisher ul li:hover::before {  
+   transform: scale(1.5);
+   transition: all 0.9s ease 0s;
+} 
+.fisher p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;      
+}
+.homework {
+   background-color: #787A80;
+   padding: 20px;
+   border-radius: 20px;  
+}
+.homework__link-hov {
+   color: yellow;
+   display: inline-block;
+   background-color: yellowgreen;
+   font-weight: 700;
+   font-size: 30px;
+   border-radius: 15px;
+   padding: 20px;
+   margin-left: 50px;
+}
+.homework__link-hov:hover {
+   text-decoration: underline;
+   color: blue;
+}
+.homework__link-hov:not(:last-child) {
+   margin-bottom: 15px;
+}
+.homework__link-act {
+   color: yellow;
+   display: inline-block;
+   background-color: yellowgreen;
+   font-weight: 700;
+   font-size: 30px;
+   border-radius: 15px;
+   padding: 20px;
+   margin-left: 50px;
+}
+.homework__link-act:active {
+   color: blue;
+}
+.homework__link-act:not(:last-child) {
+   margin-bottom: 15px;
+}
+.homework__link-vis {
+   color: yellow;
+   display: inline-block;
+   background-color: yellowgreen;
+   font-weight: 700;
+   font-size: 30px;
+   border-radius: 15px;
+   padding: 20px;
+   margin-left: 50px;
+}
+.homework__link-vis:visited {
+   color: blue;
+}
+.homework__link-vis:not(:last-child) {
+   margin-bottom: 15px;
+}
+.homework__link-foc {
+   color: yellow;
+   display: inline-block;
+   background-color: yellowgreen;
+   font-weight: 700;
+   font-size: 30px;
+   border-radius: 15px;
+   padding: 20px;
+   margin-left: 50px;
+}
+.homework__link-foc:focus{
+   outline: 5px solid blue;
+}
+.homework ul {
+   background-color: burlywood;
+   color: crimson;
+   font-size: 40px;
+   border-radius: 20px;
+   padding: 20px;
+   line-height: 1.2;
+}
+ul ul {
+   display: none;
+}
+ul li:hover ul {
+   display: block;
+}
+
+
+
+
+
